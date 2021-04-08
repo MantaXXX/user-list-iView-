@@ -7,8 +7,7 @@
             <router-link to="/">
               <MenuItem name="Home"><Icon type="ios-navigate" />Home</MenuItem>
             </router-link>
-            <MenuItem name="Fav"><Icon type="ios-bookmark" />Favorite</MenuItem>
-            <MenuItem name="0">
+            <MenuItem name="input">
               <Input
                 search
                 placeholder="Enter something..."
@@ -36,7 +35,7 @@
       </div>
       <Content
         :style="{
-          margin: '10px 20px',
+          margin: '9px 20px',
           background: '#fff',
           minHeight: '565px',
         }"
@@ -174,9 +173,8 @@ export default {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  // border: 1px solid black;
   height: auto;
-  // width: 80%;
+
   .card {
     margin: 20px 20px;
     h3 {
@@ -192,7 +190,7 @@ export default {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 11vh;
   a {
     margin: 0 20px;
   }
